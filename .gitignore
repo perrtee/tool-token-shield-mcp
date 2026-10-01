@@ -1,0 +1,77 @@
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+!.env.template
+.secrets/
+secrets.*
+*.secret
+*.secrets
+
+# AWS credentials and local cloud configuration
+.aws/
+**/.aws/
+credentials
+**/credentials
+aws_credentials
+aws_credentials.*
+
+# Private keys, certificates, and keystores
+*.pem
+*.key
+*.p12
+*.pfx
+*.p7b
+*.p7c
+*.jks
+*.keystore
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+id_ecdsa
+id_ecdsa.*
+id_dsa
+id_dsa.*
+*.ppk
+
+# Local application and editor configuration
+.cursor/
+.vscode/
+.idea/
+
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python virtual environments and package/build output
+venv/
+ENV/
+env/
+.venv/
+virtualenv/
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Local runtime state and logs
+*.log
+*.pid
+*.seed
+instance/
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
